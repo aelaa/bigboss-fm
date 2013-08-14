@@ -1,0 +1,134 @@
+div.afisha_sidebar_container
+{
+margin-left:-10px;
+margin-bottom:-15px;
+margin-top:-9px;
+}
+
+div.wafisha_sidebar_noevents
+{
+color:#4f4f4f;
+text-align:center; 
+padding-top: 7px;
+}
+
+div.wafisha_sidebar_werenoevents span{vertical-align:middle;}
+
+div.afisha_sidebar_title
+{
+text-align:center; 
+width:338px; 
+height:5px; 
+border-top: 1px solid #c6c6c6;
+border-left: 1px solid #c6c6c6;
+border-right: 1px solid #c6c6c6;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+}
+
+div.afisha_sidebar_calendar_div
+{
+width:338px; 
+height:38px; 
+border-left: 1px solid #c6c6c6;
+border-right: 1px solid #c6c6c6;
+border-bottom: 1px solid #c6c6c6;
+background-color:#EFEFEF;
+}
+
+div.afisha_sidebar_days_div
+{
+overflow:hidden;
+float:left;
+width:338px;
+height:38px;
+margin-left: -1px;
+margin-right: 4px;
+border-left: 1px solid #c6c6c6;
+border-right: 1px solid #c6c6c6;
+padding-bottom:1px;
+}
+
+div.afisha_sidebar_day
+{
+width: 43px; 
+height:38px; 
+float:left;
+text-align:center;
+cursor:pointer;
+font-size:12px;
+padding-top:2px;
+}
+
+div.afisha_sidebar_day:hover
+{
+border-top: 2px solid rgb(243, 137, 56); 
+border-bottom: 2px solid rgb(243, 137, 56); 
+border-radius: 2px;
+padding-top:0px;
+height: 35px;
+}
+
+div.sidebar_current_day 
+{
+width: 80px;
+color:#5555ff;
+font-size:12px;
+}
+
+span.afisha_sidebar_month_russian{display:none;}
+
+div.sidebar_current_day span.afisha_sidebar_month_russian{display:inline;}
+
+span.afisha_sidebar_day_red{color:#ec3834;}
+
+div.afisha_sidebar_events_div
+{
+width:338px; 
+border-left: 1px solid #c6c6c6;
+border-right: 1px solid #c6c6c6;
+}
+
+div.afisha_sidebar_event
+{
+height:30px;
+ border-bottom: 1px solid #c6c6c6;
+background-color:#EFEFEF; 
+}
+
+div.afisha_sidebar_event_time
+{
+width:80px;
+float:left;
+height:30px;
+}
+
+div.afisha_sidebar_event_time_time
+{
+text-align:center;
+margin-top:7px;
+margin-left:15px;
+width:45px;
+font-size:16px;
+font-weight:bold;
+text-shadow: 1px 1px 2px #555555;
+color: #383838;
+}
+
+div.afisha_sidebar_event_desc
+{
+float:left;
+margin-top:2px;
+margin-left:2px;
+height:24px;
+width:252px;
+cursor:pointer;
+overflow:hidden;
+}
+
+div.afisha_sidebar_desc_text
+{
+margin-top:5px;
+width:250px;
+}
+
